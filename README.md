@@ -8,9 +8,13 @@ This game is very easy to play. The objective of the game is to remove as many p
 
 In this program, the user to type in the "from" position of a marble and the "to" position of a marble to play the game. For example, typing 4 2 4 4 for the following
 
-    0 0 0   
-    0 0 0
-0 0 0 0 0 0 0 
+    O O O 
+    O O O
+O O O O O O O
+O O O _ O O O
+O O O O O O O
+    O O O
+    O O O
 
 will result in...
 
