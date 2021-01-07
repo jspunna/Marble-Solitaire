@@ -1,33 +1,12 @@
 # Marble-Solitaire
 
-This command-line program creates the classic game, Peg Solitaire, that was first played in the 1600s. In this project, there are two additional types to the board besides the traditional English board type, including European board and Triangular board.
+This command-line program creates the classic game, Peg Solitaire, that was first played in the 1600s. In this project, there are two additional types to the board besides the traditional English board type, including European board and Triangular board. The game is also refered to as Marble Solitaire due to the use of marbles instead of pegs.
 
 ## How to play the game
 
-This game is very easy to play. The objective of the game is to remove as many pegs/marbles from the board as possible through valid moves. Hopefully you are able to empty the whole board! A valid move is to jump a peg orthogonally over an adjacent peg into a empty hole/position two positions away and then to remove the jumped peg. You can only jump over one adjacent peg.
+This game is very easy to play. The objective of the game is to remove as many pegs/marbles from the board as possible through valid moves. Hopefully you are able to empty the whole board! A valid move is to jump a marble orthogonally over an adjacent marble into a empty hole/position two positions away and then to remove the jumped marble. You can only jump over one adjacent marble.
 
-In this program, the user to type in the "from" position of a marble and the "to" position of a marble to play the game. For example, typing 4 2 4 4 for the following
-
-    O O O 
-    O O O
-O O O O O O O
-O O O _ O O O
-O O O O O O O
-    O O O
-    O O O
-
-will result in...
-
-    O O O
-    O O O
-O O O O O O O
-O _ _ O O O O
-O O O O O O O
-    O O O
-    O O O
-Score: 31
-
-The top row is 1 and the left most column is also 1. So 4 2 4 4, moved the piece from position 4(row), 2(column) to position 4(row), 4(column) which was the empty hole. Thus the peg from 4,2 is now at 4,4 and the position the peg left from as well as the peg it jumped over are empty. After each valid move, an updated board and score will be chose in the terminal.
+In this program, the user has to type in the "from" position of a marble and the "to" position of a marble to play the game. Keep in mind that the top row is 1 and the left most column is also 1. Imagine a board/grid and let's say that 4(row),2(column) has a marble and 4,3 has a marble and 4,4 is an empty slot. For example, typing "4 2 4 4" moves the marble piece from position 4(row), 2(column) to position 4(row), 4(column) which was the empty hole. Thus the marble from 4,2 is now at 4,4 and the position the marble left from as well as the marble it jumped over are now empty. After each valid move, an updated board and score will be chose in the terminal.
 
 The game will keep reading the user's input until 4 natural numbers, separated by spaces, are acquired. If there is an invalid input, the program will warn the user and ask for another set of numbers. Also, the program will let the user know if there are no more possible moves on the board. Hit "q" or "Q" to quit the game at any time.
 
